@@ -1,0 +1,613 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta content="text/html;" http-equiv="Content-Type" />
+  
+    <title>Individual Fundraising</title>
+  
+    <!--Essential Bootstrap -->
+    <link href="https://d1uj0p6cs1pt1q.cloudfront.net/static/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+  
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="https://d1uj0p6cs1pt1q.cloudfront.net/static/css/new-age.css">
+
+    <!--- Matt's Stylesheets -->
+     <link rel="stylesheet" href="./styles.css">
+     <link rel="stylesheet" href="./navbar-styles.css"
+</head>
+   
+<body id="page-top">
+
+<nav>
+    <div class="mo-mobile">
+  
+      <div class="mobile-logo">
+      <a href="/"><img src="https://d1uj0p6cs1pt1q.cloudfront.net/static/images/gw-logo.png" alt="GiveWheel Logo" style="height: 50px"></a>
+      </div>
+      <button class="mobile-nav-button" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="mo-icon-circle">
+        <div class="mo-icon-line"></div>
+        <div class="mo-icon-line"></div>
+        <div class="mo-icon-line"></div>
+        </div>
+      </button>
+  
+    <div class="collapse" id="navbarResponsive">
+      <ul style="display: flex; flex-direction: column; width: 100%; flex-wrap: nowrap; list-style: none; gap: 13px; justify-content: center; padding-top: 10px; align-items: center;">
+        <li class="mo-nav-item"><a href="/fundraising/create/">FUNDRAISE</a></li>
+        <li class="mo-nav-item"><a href="/business/">BUSINESS</a></li>
+        <li class="mo-nav-item"><a href="/non-profits/">NON-PROFITS</a></li>
+        <li class="mo-nav-item"><a href="/about-us/">ABOUT</a></li>        
+        <li class="mo-nav-item mo-final">
+          <a href="/dashboard/">MY DASHBOARD</a>
+        </li>
+        <li class="mo-nav-item mo-final">
+          <a href="/create/">START FUNDRAISING</a>
+        </li>
+      </ul>
+    </div>
+  
+    </div>
+  
+    <div class="mo-desktop-nav">
+      <a href="/" style="padding-top: 15px;"><img class="mo-desktop" src="https://d1uj0p6cs1pt1q.cloudfront.net/static/images/gw-logo.png" alt="GiveWheel Logo" style="height: 50px"></a>
+      <div class="mo-desktop mo-desktop-nav-items" style="height: 80px;">
+        <ul>
+        <li class="mo-desktop-nav-item dropdown-hover"><a href="/fundraising/create/"><div>FUNDRAISE</div></a>
+          <div class="mo-dropdown fundraise-pos" style="padding: 10px;">
+              <div class="mo-dropdown-visible">
+                  <div class="dropdown-col">
+                      <h2>Features</h2>
+                      <div class="dropdown-div"></div>
+                      <h3 class="selected">Individual Fundraising</h3>
+                      <h3>Team Fundraising</h3>
+                      <h3>Ticketed Fundraising</h3>
+                      <h3>Grants and Sponsorships</h3>
+                      <h3>Donor Elect</h3>
+                  </div>
+                  <div class="dropdown-col">
+                      <h2>Fundraising For:</h2>
+                      <div class="dropdown-div"></div>
+                      <h3>Mass Participation Events</h3>
+                      <h3>Schools and Education</h3>
+                      <h3>Weddings</h3>
+                      <h3>Memorials</h3>
+                      <h3>Charity Livestreams</h3>
+                  </div>
+              </div>
+          </div></li>
+        <li class="mo-desktop-nav-item"><a href="/business/"><div>BUSINESS</div></a></li>
+        <li class="mo-desktop-nav-item"><a href="/non-profits/"><div>NON-PROFITS</div></a></li>
+        <li class="mo-desktop-nav-item dropdown-hover"><a href="/non-profits/"><div>ABOUT</div></a>
+          <div class="mo-dropdown about-pos">
+              <div class="mo-dropdown-visible">
+              <div class="dropdown-col">
+                  <h2>How it Works</h2>
+                  <div class="dropdown-div"></div>
+                  <h3>About GiveWheel</h3>
+                  <h3>Success Stories</h3>
+                  <h3>Blog</h3>
+                  <h3>News</h3>
+                  <h3>Help Centre</h3>
+              </div>
+              </div>
+          </div></li>
+        <li class="mo-desktop-nav-item mo-desktop-final">
+        <a href="/dashboard/"><div>DASHBOARD</div></a>
+        </li>
+        <li class="mo-desktop-nav-item mo-desktop-final">
+          <a href="/create/"><div>START FUNDRAISING</div></a>
+        </li>
+      </ul></div>
+    </div>
+</nav>
+
+<div style="height: 75px"></div>
+
+
+
+<div class="hero-title-block individual-hero-photo">
+<div class="mo-title" style="max-width: 1100px;">
+    <h1 style="text-transform: none; font-size: 2em; color: white;">Introducing...</h1>
+    <h1 style="color: white;">A <span>better</span> fundraising experience.</h1>
+    <h2>Unlimited multi-charity fundraising for free, with 0% platform fees.</h2>
+</div>
+</div>
+
+<div class="mo-subtitle" style="margin-top: 40px">
+  <h1>Take control of your fundraising.</h1>
+</div>
+<div class="mo-subtitle-description">
+  <p>We're the only platform that allows you to fundraise for an unlimited number of charities, at any % split you choose. We also provide a suite of customised tools to personalise your page and share it widely. Free to individuals, companies and non-profits alike, with 0% platform fees.</p>
+</div>
+
+<div class="mo-shaded-block">
+    <div class="mo-shaded-flex">
+        <div class="shaded-flex-box-alt">
+          <h1>❤️</h1>
+          <h2>0% Platform Fees</h2>
+          <p>We don't take a cut of any donations to your page, meaning more money reaches your chosen charities</p>
+        </div>
+        <div class="shaded-flex-box-alt">
+          <h1>🌟</h1>
+          <h2>Multi-Charity Fundraising</h2>
+          <p>Fundraise for an unlimited number of charities from any fundraiser, at any % split you choose</p>
+        </div>
+        <div class="shaded-flex-box-alt">
+          <h1>🎨</h1>
+          <h2>Choice of Page Designs</h2>
+          <p>Choose from our classic or hero template and upload media to make your page truly your's </p>
+        </div>
+        <div class="shaded-flex-box-alt">
+          <h1>💳</h1>
+          <h2>Minimal Card Fees</h2>
+          <p>The only fee on donations is 1.2% (+20p) charged by our payment provider - lower than many other fundraising platforms!</p>
+        </div>
+    </div>
+</div>
+
+<div class="column-flex">
+  <div class="column-flex-item">
+    <div class="mo-subtitle"><h1>Easy Set Up</h1></div>
+    <div class="setup-entry">
+      <div class="setup-number"><span>1</span></div>
+      <h2>Use our quick and easy fundraiser creator to add your page details</h2>
+    </div>
+    <div class="setup-entry">
+      <div class="setup-number"><span>2</span></div>
+      <h2>Choose your target and upload media to personalise your page</h2>
+    </div>
+    <div class="setup-entry">
+      <div class="setup-number"><span>3</span></div>
+      <h2>Choose any number of charity beneficiaries and % split going to each</h2>
+    </div>
+    <div class="setup-entry">
+      <div class="setup-number"><span>4</span></div>
+      <h2>Choose between our classic and hero page designs</h2>
+    </div>
+    <div class="setup-entry">
+      <div class="setup-number"><span>5</span></div>
+      <h2>Share your page with friends and family to start the donations rolling!</h2>
+    </div>
+  </div>
+  <div class="column-flex-item">
+    <img src="https://i.ibb.co/4VJnKKV/Single-Page-Example.jpg">
+  </div>
+</div>
+
+<div class="purple-block">
+  <div class="mo-subtitle">
+    <h1 style="color: white;">Plus, use our suite of tools...</h1>
+  </div>
+  <div class="purple-block-flex">
+    <div class="purple-block-flex-item">
+      <img src="https://i.ibb.co/wM1Zwwx/1.jpg">
+      <h1>QR Code Generator</h1>
+    </div>
+    <div class="purple-block-flex-item">
+      <img src="https://i.ibb.co/pywTnt9/2.jpg">
+      <h1>Strava Integration</h1>
+    </div>
+    <div class="purple-block-flex-item">
+      <img src="https://i.ibb.co/1nN56c3/3.jpg">
+      <h1>Custom Widgets</h1>
+    </div>
+    <div class="purple-block-flex-item">
+      <img src="https://i.ibb.co/kM7kH65/5.jpg">
+      <h1>Offline Donations</h1>
+    </div>
+    <div class="purple-block-flex-item">
+      <img src="https://i.ibb.co/vLGMQQz/8.jpg">
+      <h1>Secure Payments</h1>
+      </div>
+    <div class="purple-block-flex-item">
+      <img src="https://i.ibb.co/pbxScCf/Website-Icon-Landscape.jpg">
+      <h1>Gift Aid Eligibility</h1>
+    </div>
+    <div class="purple-block-flex-item">
+      <img src="https://i.ibb.co/WVvQ7pK/7.jpg">
+      <h1>Update Posts</h1>
+    </div>
+    <div class="purple-block-flex-item">
+      <img src="https://i.ibb.co/B3R4NVr/9.jpg">
+      <h1>Thank You Messages</h1>
+    </div>
+    <div class="purple-block-flex-item">
+      <img src="https://i.ibb.co/qBwCyNz/10.jpg">
+      <h1>Multiple Currencies</h1>
+    </div>
+  </div>
+</div>
+
+<div class="circular-end">
+  <div></div>
+</div>
+
+
+<div class="mo-shaded-block fundraise-button-block">
+  <div class="fundraise-block-text"><h1>Ready to Get Started?</h1></div>
+  <div class="fundraise-button"><a href="/create"><button>CREATE FUNDRAISER</button></a></div>
+</div>
+
+
+<!-- back to Ollie code -->
+
+<style>
+footer  ul {
+list-style: none;
+text-align: left;
+}
+footer ul li {
+padding: 0.25em 0em;
+}
+footer .card {
+height: 16em;
+}
+
+footer a {
+font-size: 1.15em!important;
+color: rgba(255, 255, 255, 0.4);
+}
+footer a:hover {
+color: white;
+}
+
+footer span:hover {
+color: white;
+}
+
+.footerheading {
+  text-align: left;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 0.5em;
+  font-size: 1.5em!important;
+  opacity: 0.85;
+}
+
+/* Style all font awesome icons */
+.fasocial {
+  padding: 5px;
+  /* margin-right:15px; */
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  opacity:1;
+  float:left;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.8;
+}
+
+.item.social > a {
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+  margin:0 8px;
+  color:#fff;
+  opacity:0.75;
+}
+
+.item.social > a:hover {
+  opacity:0.9;
+}
+
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.socialmediaicons .fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.socialmediaicons .fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.socialmediaicons .fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.socialmediaicons .fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+</style>
+
+
+<!-- <section class="contact" id="contact" style="padding: 50px; /*background: url(https://d1uj0p6cs1pt1q.cloudfront.net/static/images/art-swirls.gif)*/; background: #72226d !important; background-size: 100%; width: 100%; background-attachment: fixed !important;">
+    <div class="container dark-bg revealOnScroll" data-animation="rubberBand">
+      <h2><i class="fa fa-heart"></i> giving</h2>
+    </div>
+</section> -->
+
+<footer style="display: -webkit-box; width:100%; min-height:25em; background-color: #353535; /*background-color: #222222;*/">
+
+
+
+<div class="container">
+  <div class="content mt-3">
+    <div class="col-sm-12 col-lg-12">
+      <div class="col-6 col-sm-6 col-lg-3">
+        <!--<div class="card" <style="background-image: url(https://media.giphy.com/media/ylyUQmXDhE8y6fjVkI/giphy.gif);">-->
+        <div class="" style="background: #353535; /*box-shadow: 0 30px 60px 0 rgba(0,0,0,.2);*/">
+          <div class="card-body pb-0">
+            <!-- <p class="footerheading">Company</p> -->
+            <ul>
+              <a href="/"><img src="https://d1uj0p6cs1pt1q.cloudfront.net/static/images/GW_logo_white.png" alt="GiveWheel logo white" style="width: 60%; margin-left: 1em; margin-bottom: 1em; opacity: 0.6;"></a>
+              <img src="https://d1uj0p6cs1pt1q.cloudfront.net/static/images/FR_Fundraising-Badge_Primary_White_300ppi.png" alt="Fundraising Regulator badge" style="width: 70%; margin-left: -0.15em; opacity: 0.6;">
+              <!-- <li><a href="/blog/">News</a></li> -->
+            </ul>
+        </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-sm-6 col-lg-3">
+        <!--<div class="card" <style="background-image: url(https://media.giphy.com/media/ylyUQmXDhE8y6fjVkI/giphy.gif);">-->
+          <div class="card" style="background: #353535; /*box-shadow: 0 30px 60px 0 rgba(0,0,0,.2);*/">
+          <div class="card-body pb-0">
+            <p class="footerheading">Quick Links</p>
+            <ul>
+              <li><a href="/">Homepage</a></li>
+              <li><a href="/dashboard/">Dashboard</a></li>
+              <li><a href="/fundraising/">Fundraising</a></li>
+              <li><a href="/impact/">Impact</a></li>
+            </ul>
+        </div>
+        </div>
+      </div>
+    <div class="col-6 col-sm-12 col-lg-3">
+      <!--<div class="card" <style="background-image: url(https://media.giphy.com/media/ylyUQmXDhE8y6fjVkI/giphy.gif);">-->
+      <div class="card" style="background: #353535; /*box-shadow: 0 30px 60px 0 rgba(0,0,0,.2);*/">
+        <div class="card-body pb-0">
+          <p class="footerheading">Help</p>
+          <ul>
+            <li><a href="/help/users/">Help Centre</a></li>
+            <li><a href="/help/contact/">Contact</a></li>
+            <li><a href="/about-us/">About</a></li>
+            <li><a href="/blog/">News</a></li>
+          </ul>
+      </div>
+      </div>
+    </div>
+    <div class="col-6 col-sm-12 col-lg-3">
+      <!--<div class="card" <style="background-image: url(https://media.giphy.com/media/ylyUQmXDhE8y6fjVkI/giphy.gif);">-->
+      <div class="card" style="background: #353535; /*box-shadow: 0 30px 60px 0 rgba(0,0,0,.2);*/ height: 12.5em; margin-bottom: 1em;">
+        <div class="card-body pb-0">
+          <p class="footerheading">Partners</p>
+          <ul>
+            <li><a href="/business/">GiveWheel for Business</a></li>
+            <li><a href="/non-profits/">GiveWheel for Charities</a></li>
+            <li><a href="/event-organisers/">Event Organisers</a></li>
+
+            <!-- <li style=margin-bottom:1em;><a href="/partner-network/">GiveWheel Partner Network</a></li> -->
+          </ul>
+      </div>
+      </div>
+      <div class="socialmediaicons">
+      <a href="https://www.facebook.com/givewheel/" aria-label="facebook" class="fasocial" tabindex="-1"><img style="width:40px;" src="https://d1uj0p6cs1pt1q.cloudfront.net/static/images/social-facebook.png"></a>
+      <a href="https://www.linkedin.com/company/givewheel-uk/" aria-label="linkedin" class="fa fasocial" tabindex="-1"><img style="width:40px;" src="https://d1uj0p6cs1pt1q.cloudfront.net/static/images/social-linkedin.png"></a>
+      <a href="https://instagram.com/givewheel/" class="fa fasocial" tabindex="-1"><img style="width:40px;" src="https://d1uj0p6cs1pt1q.cloudfront.net/static/images/social-instagram.png"></a>
+      <a href="https://twitter.com/GiveWheel" class="fa fasocial" tabindex="-1"><img style="width:40px;" src="https://d1uj0p6cs1pt1q.cloudfront.net/static/images/social-x.png"></a>
+      <a href="https://www.youtube.com/@givewheelfundraising/" class="fa fasocial" tabindex="-1"><img style="width:40px;" src="https://d1uj0p6cs1pt1q.cloudfront.net/static/images/youtube-icon.png"></a>
+
+      <!-- <img style="margin-left: 10%; opacity:0.6; height:52px; " alt="wheel" src="https://givewheel-assets.s3.eu-west-2.amazonaws.com/static/images/wheel.png"/> -->
+      </div>
+    <!-- <a style="font-size: 2em; width:25%; float:left;" class="btn btn-social btn-twitter"><span class="fa fa-facebook"></span> </a>
+    <a style="font-size: 2em; width:25%; float:left;" class="btn btn-social btn-twitter"><span class="fa fa-twitter"></span> </a> -->
+    <!-- <img style="margin-left: 10%; opacity:0.4; width:20%; float:left;" alt="wheel" src="https://d1uj0p6cs1pt1q.cloudfront.net/static/images/wheel.png"/> -->
+
+  </div>
+</div>
+
+
+    <p style="color: rgba(255, 255, 255, 0.5); font-size: 1em;">&copy; GiveWheel 2024. Company No: <em>13310863.</em></p>
+    <p style="color: rgba(255, 255, 255, 0.5); font-size: 1em;"><a href="/terms/" style="font-size:1em!important; padding: 0em 0.5em;">Terms of Use</a>
+    <a href="/privacy/" style="font-size:1em!important;">Privacy Policy</a></p>
+
+
+  </div>
+</div>
+</footer>
+
+
+
+
+  </body>
+
+<script>
+(function() {
+
+    var quotes = $(".quotes");
+    var quoteIndex = -1;
+
+    function showNextQuote() {
+        ++quoteIndex;
+        quotes.eq(quoteIndex % quotes.length)
+            .fadeIn(1000)
+            .delay(2000)
+            .fadeOut(1000, showNextQuote);
+    }
+
+    showNextQuote();
+
+})();
+</script>
+
+<!-- Modal -->
+
+
+<style>
+  .hide {
+    display:none;
+  }
+</style>
+
+<div style="z-index:9999;" class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="loginModalLabel">Sign in</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+
+        <div class="login-form">
+          
+
+<script>
+  setTimeout(function() {
+    $('#message').fadeOut('slow');
+  }, 7000);
+</script>
+
+            <form action="/login/" method="post">
+              <input type="hidden" name="csrfmiddlewaretoken" value="3Mazd6RE9wM4thxcUN1jePjwqQ3yJJKW0lpj9EFV7VLiwExBg8Rjiwr2jCKuaq7X">
+                <!--<div class="form-group">
+                    <label>Email address</label>
+                    <input type="email" name="email" class="form-control" placeholder="Email">
+                </div>-->
+                <div class="form-group">
+
+                    <label for="id_username">Email / Username</label>
+                    <input id="id_username" type="text" name="username" class="form-control" placeholder="Username">
+                </div>
+                <div class="form-group">
+                    <label for="id_password">Password</label>
+                    <input id="id_password" type="password" name="password" class="form-control" placeholder="Password">
+                </div>
+                <div class="checkbox">
+                    <label class="pull-right">
+                        <a href="/reset_password/">Forgotten Password?</a>
+                    </label>
+
+                </div>
+                    <div class="social-button">
+                        <a style="color:white;" href="/social-auth/login/facebook/"><button type="button" class="btn social facebook btn-flat btn-addon mb-3"><i class="ti-facebook"></i>Sign in with facebook</button></a>
+                    </div>
+
+                <button type="submit" class="btn btn-success btn-flat m-b-30 m-t-30">Sign in</button>
+                <div class="register-link m-t-15 text-center">
+                    <!-- <p style="margin-top:20px;">Don't have an account ? <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#signupModal"> Sign Up Here</a></p> -->
+                  <p style="margin-top:20px;">Don't have an account? <a href="/register/"> Sign Up Here</a></p>
+
+                </div>
+            </form>
+            
+        </div>
+
+
+      </div>
+
+    </div>
+  </div>
+</div>
+<!--END MODAL-->
+
+<!-- Modal -->
+<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel" aria-hidden="true" style="z-index:9999;">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+  <h5 class="modal-title" id="signupModalLabel">Sign up</h5>
+  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="modal-body">
+  <center><b>New User Registration</b></center>
+    
+        <div class="login-form">
+          <form enctype="multipart/form-data" action="/register/" method="post">
+            <!-- <form enctype="multipart/form-data" method ="post"> -->
+              <input type="hidden" name="csrfmiddlewaretoken" value="3Mazd6RE9wM4thxcUN1jePjwqQ3yJJKW0lpj9EFV7VLiwExBg8Rjiwr2jCKuaq7X">
+              <div class="form-group">
+                <label for="id_username">User Name</label>
+                <input id="id_username" type="text" name="username" class="form-control" placeholder="User Name">
+            </div>
+            <div class="form-group">
+                <label for="id_email">Email address</label>
+                <input id="id_email" type="email" name="email" class="form-control" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for="id_password">Password</label>
+                <input id="id_password" type="password"  name="password" class="form-control" placeholder="Password">
+            </div>
+              
+              <!-- <div class="checkbox">
+                  <label>
+                      <input type="checkbox" required> Agree the terms and policy
+                  </label>
+              </div> -->
+              <div class="form-control inputGroup" style="padding:0;">
+                      <input type="checkbox" required id="agreepolicy">
+                      <label for="agreepolicy">Agree the <a href="/terms/">terms and policy</a></label>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-flat m-b-30 m-t-30">Register</button>
+            </form>
+  
+<p>
+
+</p>
+                      <div class="social-button">
+                          <button type="button" class="btn social facebook btn-flat btn-addon mb-3"><i class="ti-facebook"></i>Register with facebook</button>
+                      </div>
+                  <div class="register-link m-t-15 text-center">
+
+                      <p>Already have account ? <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#loginModal"> Sign in</a></p>
+                  </div>
+  </div>
+
+
+</div>
+
+</div>
+</div>
+</div>
+<!--END MODAL-->
+
+
+<script src="https://d1uj0p6cs1pt1q.cloudfront.net/static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+
+</html>
